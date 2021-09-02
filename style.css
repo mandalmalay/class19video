@@ -1,0 +1,283 @@
+
+/* header css start */
+.header-section{
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    padding: 10px 0;
+}
+body{
+    background-image: url(./img/20180720-Capture0012.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+}
+.logo a{
+    width: 150px;
+    color: rgb(228, 23, 23);
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.logo span{
+    color: rgb(22, 21, 22);
+}
+.menu{
+    padding: 0;
+    margin: 0;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.menu ul li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+}
+.menu ul li a {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	text-decoration: none;
+	padding: 0 20px;
+	color: rgb(65, 63, 209);
+	font-size: 17px;
+	line-height: 37px;
+    font-weight: 900;
+}
+.menu ul li a:hover{}
+
+.menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: thistle;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    transform: scaleY(0);
+    transition: .6s;
+}
+.menu ul li:hover>ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.menu ul li ul li:hover{
+    background-color: white;
+}
+
+.menu ul li ul li{
+    display: block;
+    border-top: 2px solid black;
+    position: relative;
+}
+
+.menu ul li ul li a{
+    display: block;
+}
+.menu ul li ul li ul{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: thistle;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top center;
+    transform: scaleY(0);
+    transition: .6s;
+}
+.menu ul li ul li ul li{
+    display: block;
+    border-top: 2px solid rgb(189, 9, 9);
+    position: relative;
+}
+.menu ul li ul li ul li a{
+    display: block;
+}
+/* header css end */
+
+/* banner css start */
+.banner{
+    background-color: rgba(75, 219, 70, 0.459);
+    height: 700px;
+}
+.left{
+    margin-top: 40px;
+}
+.pic img{
+        max-width: 100%;
+        min-height: 100%;
+        border-radius: 30%;
+}
+.pic{
+    padding-top: 40px;
+    height: 400px;
+}
+.fig{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.right{
+    padding: 0 50px;
+    background-color: rgba(15, 14, 15, 0.637);
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.right h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+.right p{
+    color: rgb(245, 235, 235);
+}
+/* banner css end */
+
+/* blog css start */
+.blog{
+    background-color: rgba(235, 236, 240, 0.767);
+    padding: 20px 0;
+}
+.sum{
+    margin-top: 100px;
+
+}
+.sum p{
+    font-size: 20px;
+    color: rgb(38, 24, 230);
+}
+.lorem{
+    color: teal;
+    font-size: 40px;
+}
+/* blog css end */
+
+/* contact css start */
+.contact{
+    background-color: #11cdeec4;
+    height: 599px;
+    padding-top: 100px;
+    text-align: center;
+}
+.form-div{
+    margin-left: 50px;
+}
+.heading{
+    margin-left: 50px;
+}
+.heading h2 {
+	font-weight: 700;
+	font-size: 40px;
+    padding-bottom: 15px;
+    color: white;
+}
+.heading p{
+    padding-bottom: 15px;
+}
+.tex {
+	padding: 10px;
+	width: 465px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+    border: 2px solid transparent;
+}
+.emai{
+    padding: 10px;
+	width: 465px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+    margin-top: 10px;
+    border: 2px solid transparent;
+    position: relative;
+}
+
+.numbe{
+    padding: 10px;
+	width: 465px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+    margin-top: 10px;
+    border: 2px solid transparent;
+}
+.texte{
+    padding: 10px;
+	width: 465px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+}
+.form-div .btt{
+    background-color: #1f12da;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+.tex:focus,.emai:focus,.numbe:focus,.texte:focus{
+    border: 2px solid black;
+}
+/* contact css end */
+/* footer css start */
+.footer{
+    background-color: #6d6d6d;
+    padding: 40px 0;
+
+}
+.footer p{
+    padding: 0;
+    margin: 0;
+    color: #dfdedc;
+    font-size: 15px;
+}
+.footer-menu{
+
+}
+.footer-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.footer-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #dfdedc;
+    padding: 0 10px;
+}
